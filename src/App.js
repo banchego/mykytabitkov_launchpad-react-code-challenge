@@ -2,9 +2,7 @@ import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-// import { Home } from './components/pages/Home';
-// import {Universities} from './components/pages/Universities';
+import Home from './pages/home/home';
 
 
 
@@ -16,8 +14,8 @@ function App() {
 
       <div className='pages'>
       <Routes>
-        {/* <Route exact path="/" element={<Home/>} />
-        <Route path="/universities" element={<Universities />}/> */}
+        <Route path="/" element={<Home/>} />
+        {/* <Route path="/universities" element={<Universities />}/> */}
           
       </Routes>
       </div>
