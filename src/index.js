@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import store from './pages/home/home';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// import { Provider } from 'react-redux';
+// import store from './store/store';
+
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    
+        <App store={store}/>
+    
+    
 );
-
-
