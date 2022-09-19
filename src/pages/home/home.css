@@ -91,6 +91,10 @@ background-image: url(./background.jpg)  no-repeat  center fixed;
     margin-bottom: 10px;
     padding: 10px;
     transition: padding 0.2s;
+    
+     
+
+
   }
   
   .add-post-button:hover {
@@ -102,5 +106,5 @@ background-image: url(./background.jpg)  no-repeat  center fixed;
     
   }
   .modal-input {
-    height: 100px;
+    
   }
