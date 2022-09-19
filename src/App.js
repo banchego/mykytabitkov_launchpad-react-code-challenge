@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/home';
+import Universities from './pages/universities/Universities';
 
 
 
@@ -15,7 +16,7 @@ function App() {
       <div className='pages'>
       <Routes>
         <Route path="/" element={<Home/>} />
-        {/* <Route path="/universities" element={<Universities />}/> */}
+        <Route path="/universities" element={<Universities />}/>
           
       </Routes>
       </div>
