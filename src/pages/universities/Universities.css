@@ -10,16 +10,11 @@
 
 
 
-.container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
 
 
 
-select{
+
+.dropdown-elements{
     width: 350px;
     outline: none;
     border: 1px solid #fff;
@@ -59,14 +54,23 @@ select:hover{
     display: flex;
     text-align: center;
     height: 100px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 70rem;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 0.25);
     flex-direction: column;
     justify-content: center;
     
 }
 .uni-list{
 list-style: none;
-text-align: center;
+
+
+    padding: 2rem;
+    background-color: #23d2d509;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    word-break: break-word;
 
 display: inline-block;
 }
